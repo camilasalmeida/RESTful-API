@@ -30,6 +30,12 @@ app.post("/calculator", (req, res) => {
     res.status(200).json({total})
 })
 
+app.delete("/calculator", (req, res)=>{
+    total = 0
+    res.status(204).json({})
+})
+
+
 app.listen(PORT, ()=>{
     console.log("Listening on port 4000")
 })
