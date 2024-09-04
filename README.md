@@ -1,9 +1,14 @@
-| HTTP Method | Endpoint | CRUD Operation | Route Name | Description|
-|--|--|--|--|--|
-| GET | /puppies | Read | index | Gets all the puppies |
-| GET | /puppies/:puppyId | Read | show | Displays data for a single puppy |
-| GET | /puppies/:puppyId/edit | Read | edit | Displays an edit form for a single puppy |
-| PUT | /puppies/:puppyId | Update | update | Updates a single puppy's data |
-| GET | /puppies/new | Read | new | Displays a form for creating a single puppy |
-| DELETE | /puppies/:puppyId | Delete | delete | Deletes a single puppy |
-| POST | /puppies | Create | create | Creates a single puppy |
+| HTTP Method | Endpoint            | CRUD Operation | Route Name   | Description|
+| GET         |/songs               | Read           | index        | Display a list of all songs.
+
+| GET         |/songs/new           | Read           | new          | Show a form to add a new song.
+
+| POST        |/songs              | Create          | create       | Add a new song to the list.
+
+| GET         | /songs/:songId      | Read           | show         | Display a specific song’s details.
+
+| GET         | /songs/:songId/edit | Read           | edit         | Show a form to edit an existing song’s details.
+
+| PUT         | /songs/:songId       | Update        | update       | Update a specific song’s details.
+
+| DELETE      | /songs/:songId       | Delete        | delete       | Deletes a single song 
